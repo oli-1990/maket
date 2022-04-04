@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 830px) {
+    nav {
+      display: none;
+    }
+  
+    header .logo,
+    .contad {
+      display: block;
+      position: static;
+      margin: 0 auto;
+    }
+  
+    .contad.contad {
+      width: 280px;
+      margin: 0 auto;
+      margin-left: 0;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  
+    .start {
+      margin: 0 auto 100px;
+    }
+    .burger {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  
+    input[type="checkbox"] {
+      visibility: visible;
+      opacity: 0;
+    }
+    .start {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 720px){
+    .two, .four  {
+      min-width: 536px;
+        flex-direction:column ;
+        gap: 100px;
+     }
+     .one, .three, .five{
+       flex-direction: column;
+       img{
+         max-width: 610px;
+       }
+  
+     }
+     }
+
+    
